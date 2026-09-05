@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background: #0b0d0c;
+  color: #ece9e2;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+.maplibregl-ctrl-attrib { font-size: 10px; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #333b35; border-radius: 8px; }
+
+.panel {
+  background: rgba(18, 21, 19, 0.92);
+  border: 1px solid #262c28;
+  backdrop-filter: blur(6px);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

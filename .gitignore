@@ -1,0 +1,29 @@
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+.next/
+out/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data caches
+backend/app/data/cache/
+*.log

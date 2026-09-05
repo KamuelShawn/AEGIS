@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+pydantic-settings==2.5.2
+sqlalchemy==2.0.35
+geoalchemy2==0.15.2
+psycopg[binary]==3.2.3
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+shapely==2.0.6
+geopandas==1.0.1
+rasterio==1.4.4
+openeo==0.51.0
+httpx==0.27.2
+python-dotenv==1.0.1
+pytest==8.3.3
+pytest-cov==5.0.0
+# dev-only, used by scripts/generate_report.py
+python-docx==1.2.0

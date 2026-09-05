@@ -1,0 +1,31 @@
+{
+  "source_status": "DEMO",
+  "notes": "Structured demo geography for the MVP walkthrough. Boundaries are simplified/illustrative, not survey-grade.",
+  "regions": [
+    {
+      "id": "in", "name": "India", "type": "country", "parent_id": null,
+      "center": [78.9629, 22.5937], "zoom": 4.2
+    },
+    {
+      "id": "ka", "name": "Karnataka", "type": "state", "parent_id": "in",
+      "center": [75.7139, 15.3173], "zoom": 6.5
+    },
+    {
+      "id": "ka-chamarajanagar", "name": "Chamarajanagar District", "type": "district", "parent_id": "ka",
+      "center": [77.1197, 11.9261], "zoom": 9
+    },
+    {
+      "id": "bandipur", "name": "Bandipur Forest Region", "type": "forest", "parent_id": "ka-chamarajanagar",
+      "center": [76.6333, 11.6667], "zoom": 10.5,
+      "case_study": true
+    },
+    {
+      "id": "ka-mysuru", "name": "Mysuru District", "type": "district", "parent_id": "ka",
+      "center": [76.6394, 12.2958], "zoom": 9
+    },
+    {
+      "id": "kabini-basin", "name": "Kabini River Basin", "type": "river_basin", "parent_id": "ka",
+      "center": [76.35, 11.95], "zoom": 9.5
+    }
+  ]
+}

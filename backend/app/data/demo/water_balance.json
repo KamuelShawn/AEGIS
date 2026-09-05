@@ -1,0 +1,25 @@
+{
+  "source_status": "SIMULATED",
+  "notes": "Illustrative water-balance figures shaped like India-WRIS reporting structure. Units are million cubic meters (MCM) per year unless noted.",
+  "basins": {
+    "kabini-basin": {
+      "available_reserve_mcm": 4200,
+      "annual_replenishment_mcm": 620,
+      "current_extraction_mcm": 540,
+      "consumption_breakdown": {"agriculture": 378, "industry": 81, "domestic": 65, "other": 16},
+      "rainfall_trend_mm": [
+        {"year": 2010, "value": 1120},
+        {"year": 2014, "value": 1080},
+        {"year": 2018, "value": 990},
+        {"year": 2022, "value": 940},
+        {"year": 2026, "value": 905}
+      ]
+    },
+    "ka-chamarajanagar": {
+      "available_reserve_mcm": 1650,
+      "annual_replenishment_mcm": 240,
+      "current_extraction_mcm": 268,
+      "consumption_breakdown": {"agriculture": 190, "industry": 34, "domestic": 38, "other": 6}
+    }
+  }
+}

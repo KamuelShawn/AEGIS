@@ -1,0 +1,33 @@
+{
+  "source_status": "SIMULATED",
+  "notes": "Illustrative candidate infrastructure routes for the Bandipur corridor planning scenario.",
+  "scenarios": {
+    "bandipur-corridor": {
+      "origin": "Gundlupet",
+      "destination": "Sultan Bathery",
+      "candidates": [
+        {
+          "id": "A", "name": "Route A — Direct Forest Corridor",
+          "distance_km": 32, "construction_cost_cr": 145,
+          "environmental_impact": 82, "social_impact": 35, "connectivity_benefit": 88, "terrain_difficulty": 25,
+          "affected_ecosystems": ["Bandipur core zone", "Wildlife corridor (elephant migration route)"],
+          "affected_villages": []
+        },
+        {
+          "id": "B", "name": "Route B — Buffer Realignment",
+          "distance_km": 41, "construction_cost_cr": 198,
+          "environmental_impact": 28, "social_impact": 22, "connectivity_benefit": 76, "terrain_difficulty": 40,
+          "affected_ecosystems": ["Bandipur buffer zone (partial)"],
+          "affected_villages": ["Maddur"]
+        },
+        {
+          "id": "C", "name": "Route C — Full Bypass",
+          "distance_km": 58, "construction_cost_cr": 310,
+          "environmental_impact": 6, "social_impact": 18, "connectivity_benefit": 64, "terrain_difficulty": 55,
+          "affected_ecosystems": [],
+          "affected_villages": ["Maddur", "Kundukere"]
+        }
+      ]
+    }
+  }
+}

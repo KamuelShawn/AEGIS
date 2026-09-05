@@ -1,0 +1,25 @@
+{
+  "source_status": "SIMULATED",
+  "notes": "Illustrative candidate industrial sites near Chamarajanagar district for the site-suitability demo.",
+  "scenarios": {
+    "chamarajanagar-industrial": {
+      "candidates": [
+        {
+          "id": "S1", "name": "Site 1 — Kollegal Industrial Zone",
+          "water_availability": 72, "infrastructure_access": 80, "population_proximity": 45,
+          "environmental_sensitivity": 20, "pollution_risk": 30, "land_suitability": 78
+        },
+        {
+          "id": "S2", "name": "Site 2 — Forest-Edge Plot",
+          "water_availability": 65, "infrastructure_access": 40, "population_proximity": 25,
+          "environmental_sensitivity": 88, "pollution_risk": 35, "land_suitability": 60
+        },
+        {
+          "id": "S3", "name": "Site 3 — Near Chamarajanagar Town",
+          "water_availability": 80, "infrastructure_access": 85, "population_proximity": 82,
+          "environmental_sensitivity": 15, "pollution_risk": 55, "land_suitability": 70
+        }
+      ]
+    }
+  }
+}

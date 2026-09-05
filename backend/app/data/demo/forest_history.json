@@ -1,0 +1,36 @@
+{
+  "source_status": "SIMULATED",
+  "notes": "Illustrative forest-cover series shaped like a real FSI/Copernicus NDVI time series for demonstration. Not an official Bandipur statistic — see PDF spec section 9: 'do not fabricate exact real-world statistics'.",
+  "series": {
+    "bandipur": {
+      "unit": "km2",
+      "observations": [
+        {"year": 2000, "area": 872.4},
+        {"year": 2005, "area": 858.1},
+        {"year": 2010, "area": 839.6},
+        {"year": 2015, "area": 811.2},
+        {"year": 2020, "area": 774.8},
+        {"year": 2024, "area": 748.3},
+        {"year": 2026, "area": 736.9}
+      ],
+      "critical_threshold_area": 650.0,
+      "causes": [
+        "Encroachment pressure along the eastern boundary corridor",
+        "Expansion of agricultural land at the forest edge",
+        "Increased tourism/road traffic through the core zone",
+        "Periodic fire incidents during dry seasons"
+      ]
+    },
+    "ka-chamarajanagar": {
+      "unit": "km2",
+      "observations": [
+        {"year": 2000, "area": 1584.0},
+        {"year": 2010, "area": 1523.0},
+        {"year": 2020, "area": 1462.0},
+        {"year": 2026, "area": 1431.0}
+      ],
+      "critical_threshold_area": 1250.0,
+      "causes": ["District-wide agricultural expansion", "Infrastructure corridor development"]
+    }
+  }
+}

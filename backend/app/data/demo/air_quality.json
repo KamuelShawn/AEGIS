@@ -1,0 +1,16 @@
+{
+  "source_status": "SIMULATED",
+  "notes": "Illustrative AQI series shaped like CPCB station reporting structure.",
+  "stations": {
+    "ka-mysuru": {
+      "aqi_history": [
+        {"year": 2018, "aqi": 68},
+        {"year": 2020, "aqi": 74},
+        {"year": 2022, "aqi": 81},
+        {"year": 2024, "aqi": 89},
+        {"year": 2026, "aqi": 93}
+      ],
+      "pollutants_current": {"pm25": 58, "pm10": 96, "no2": 32, "so2": 11, "co": 0.8, "o3": 41}
+    }
+  }
+}
