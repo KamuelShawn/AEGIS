@@ -1,4 +1,4 @@
-# SUSTAINA — Develop Without Destroying
+# AEGIS — Develop Without Destroying
 
 A sustainability intelligence & geospatial decision platform for India. See
 `docs/ARCHITECTURE.md` for the full design and `docs/API_SETUP.md` to wire up
