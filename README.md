@@ -176,10 +176,10 @@ Then open `http://localhost:3000` in your browser.
 ## 👥 Team
 
 **Team Pentagon**
-Joel Jacob Roji
-Darren Samuel Dcruz
-P Kamuel Shawn
-Shreya Elizabeth Joseph
+Joel Jacob Roji .
+Darren Samuel Dcruz .
+P Kamuel Shawn .
+Shreya Elizabeth Joseph .
 Michelle Devasia 
 
 ---
